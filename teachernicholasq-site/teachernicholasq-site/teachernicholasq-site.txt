@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Teacher Nicholas Q — American Accent & IELTS Coach</title>
+  <meta name="description" content="Master the American accent, boost IELTS scores, and level up Business English with Teacher Nicholas Q. Online coaching for intermediate and advanced learners." />
+  <link rel="canonical" href="https://teachernicholasq.com/" />
+  <meta property="og:title" content="Teacher Nicholas Q — American Accent & IELTS Coach" />
+  <meta property="og:description" content="Accent reduction, IELTS preparation, and Business English coaching — online, fast, and focused on results." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://teachernicholasq.com/" />
+  <meta property="og:image" content="https://teachernicholasq.com/og-image.jpg" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Teacher Nicholas Q — American Accent & IELTS Coach" />
+  <meta name="twitter:description" content="Accent reduction, IELTS prep, and Business English for serious learners." />
+  <meta name="twitter:image" content="https://teachernicholasq.com/og-image.jpg" />
+  <link rel="icon" href="/favicon.ico" />
+  
+  <!-- Tailwind (CDN for fast start). For production, consider building Tailwind locally. -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            brand: {
+              50: '#eef6ff', 100: '#d9eaff', 200: '#b7d4ff', 300: '#8fbbff', 400: '#5e9aff', 500: '#2f79ff', 600: '#155de6', 700: '#0f46b4', 800: '#0c388f', 900: '#0a2d73'
+            },
+          }
+        }
+      }
+    }
+  </script>
+
+  <!-- Schema.org JSON-LD for a local business/teacher -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "EducationalOrganization",
+    "name": "Teacher Nicholas Q",
+    "url": "https://teachernicholasq.com/",
+    "description": "American Accent & IELTS coaching for intermediate and advanced learners.",
+    "sameAs": [
+      "https://www.linkedin.com/",
+      "https://www.youtube.com/"
+    ],
+    "areaServed": "Worldwide",
+    "offers": {
+      "@type": "Offer",
+      "priceCurrency": "USD",
+      "availability": "https://schema.org/InStock",
+      "itemOffered": {
+        "@type": "Service",
+        "name": "Accent Reduction, IELTS Preparation, Business English"
+      }
+    }
+  }
+  </script>
+
+  <style>
+    /* Smooth underlines for links */
+    a.link { text-decoration-thickness: 2px; text-underline-offset: 3px; }
+  </style>
+</head>
+<body class="bg-white text-slate-900 selection:bg-brand-200">
+  <!-- Header -->
+  <header class="sticky top-0 z-40 bg-white/80 backdrop-blur border-b border-slate-200">
+    <div class="max-w-6xl mx-auto px-4 py-3 flex items-center justify-between">
+      <a href="#" class="flex items-center gap-2 font-semibold tracking-tight">
+        <span class="inline-flex h-8 w-8 items-center justify-center rounded-xl bg-brand-600 text-white">Q</span>
+        <span>Teacher Nicholas Q</span>
+      </a>
+      <nav class="hidden md:flex items-center gap-6 text-sm">
+        <a href="#services" class="hover:text-brand-700">Services</a>
+        <a href="#results" class="hover:text-brand-700">Results</a>
+        <a href="#about" class="hover:text-brand-700">About</a>
+        <a href="#blog" class="hover:text-brand-700">Blog</a>
+        <a href="#contact" class="px-3 py-1.5 rounded-lg bg-brand-600 text-white hover:bg-brand-700">Book a Lesson</a>
+      </nav>
+      <button id="menuBtn" class="md:hidden p-2 rounded-lg border border-slate-200" aria-label="Open menu">☰</button>
+    </div>
+    <div id="mobileMenu" class="md:hidden hidden border-t border-slate-200">
+      <div class="max-w-6xl mx-auto px-4 py-3 grid gap-3 text-sm">
+        <a href="#services" class="hover:text-brand-700">Services</a>
+        <a href="#results" class="hover:text-brand-700">Results</a>
+        <a href="#about" class="hover:text-brand-700">About</a>
+        <a href="#blog" class="hover:text-brand-700">Blog</a>
+        <a href="#contact" class="px-3 py-1.5 rounded-lg bg-brand-600 text-white w-max">Book a Lesson</a>
+      </div>
+    </div>
+  </header>
+
+  <!-- Hero -->
+  <section class="relative overflow-hidden bg-gradient-to-b from-brand-50 to-white">
+    <div class="max-w-6xl mx-auto px-4 pt-16 pb-14 grid md:grid-cols-2 gap-8 items-center">
+      <div>
+        <h1 class="text-3xl md:text-5xl font-extrabold leading-tight tracking-tight">
+          Master the <span class="text-brand-700">American Accent</span> & Boost Your <span class="text-brand-700">IELTS</span>
+        </h1>
+        <p class="mt-4 text-slate-700 text-lg">Online coaching for serious learners. Accent reduction, IELTS preparation, and Business English—fast, focused, and tailored to your goals.</p>
+        <div class="mt-6 flex flex-wrap gap-3">
+          <a href="#contact" class="px-5 py-3 rounded-xl bg-brand-600 text-white hover:bg-brand-700">Book a Free Trial</a>
+          <a href="#services" class="px-5 py-3 rounded-xl border border-slate-300 hover:border-brand-600">See Programs</a>
+        </div>
+        <ul class="mt-6 text-sm text-slate-600 grid gap-2">
+          <li>✔️ Accent Advisor & Cambly experience</li>
+          <li>✔️ Band‑8 oriented materials & feedback</li>
+          <li>✔️ Flexible scheduling, global students</li>
+        </ul>
+      </div>
+      <div class="relative">
+        <div class="rounded-2xl border border-slate-200 p-6 shadow-sm bg-white">
+          <h2 class="font-semibold text-lg">What you’ll achieve</h2>
+          <ul class="mt-4 grid gap-3 text-slate-700">
+            <li>• Clear, natural American rhythm and intonation</li>
+            <li>• Confident IELTS Speaking (Parts 1–3)</li>
+            <li>• Better writing clarity and cohesion</li>
+            <li>• Stronger Business English for meetings & presentations</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Services -->
+  <section id="services" class="py-16">
+    <div class="max-w-6xl mx-auto px-4">
+      <h2 class="text-2xl md:text-3xl font-bold">Programs that deliver</h2>
+      <p class="mt-2 text-slate-600">Each service targets real outcomes and includes feedback you can act on immediately.</p>
+      <div class="mt-8 grid md:grid-cols-3 gap-6">
+        <article class="rounded-2xl border border-slate-200 p-6 shadow-sm">
+          <h3 class="font-semibold text-xl">Accent Reduction</h3>
+          <p class="mt-2 text-slate-700">Build vowel/consonant accuracy, prosody, and connected speech. Includes targeted drills (Flap‑T, TH, Stop‑T) and weekly progress checks.</p>
+          <ul class="mt-3 text-sm text-slate-600 list-disc pl-5">
+            <li>Personalized sound map</li>
+            <li>Audio feedback and homework</li>
+            <li>Measurable weekly goals</li>
+          </ul>
+        </article>
+        <article class="rounded-2xl border border-slate-200 p-6 shadow-sm">
+          <h3 class="font-semibold text-xl">IELTS Preparation</h3>
+          <p class="mt-2 text-slate-700">Speaking focus with Band‑8 vocabulary, structure, and timing. Writing tasks with clear rubric-based feedback.</p>
+          <ul class="mt-3 text-sm text-slate-600 list-disc pl-5">
+            <li>Part 1–3 speaking drills</li>
+            <li>Model answers + feedback</li>
+            <li>Weekly mock tests</li>
+          </ul>
+        </article>
+        <article class="rounded-2xl border border-slate-200 p-6 shadow-sm">
+          <h3 class="font-semibold text-xl">Business English</h3>
+          <p class="mt-2 text-slate-700">Communicate with clarity in high‑stakes settings—presentations, negotiations, and client calls.</p>
+          <ul class="mt-3 text-sm text-slate-600 list-disc pl-5">
+            <li>Presentation polish</li>
+            <li>Email & report clarity</li>
+            <li>Meeting fluency</li>
+          </ul>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- Social proof / Results -->
+  <section id="results" class="py-16 bg-slate-50">
+    <div class="max-w-6xl mx-auto px-4">
+      <h2 class="text-2xl md:text-3xl font-bold">Proven outcomes</h2>
+      <div class="mt-8 grid md:grid-cols-3 gap-6 text-center">
+        <div class="rounded-2xl border border-slate-200 p-6 bg-white">
+          <div class="text-4xl font-extrabold text-brand-700">+1.0</div>
+          <p class="mt-2 text-slate-700">Average IELTS Speaking improvement in 6–8 weeks*</p>
+        </div>
+        <div class="rounded-2xl border border-slate-200 p-6 bg-white">
+          <div class="text-4xl font-extrabold text-brand-700">90%+</div>
+          <p class="mt-2 text-slate-700">Students report clearer, more confident speech</p>
+        </div>
+        <div class="rounded-2xl border border-slate-200 p-6 bg-white">
+          <div class="text-4xl font-extrabold text-brand-700">Global</div>
+          <p class="mt-2 text-slate-700">Learners across time zones; flexible scheduling</p>
+        </div>
+      </div>
+      <p class="mt-4 text-xs text-slate-500">*Results vary; consistency and homework matter.</p>
+    </div>
+  </section>
+
+  <!-- About -->
+  <section id="about" class="py-16">
+    <div class="max-w-6xl mx-auto px-4 grid md:grid-cols-2 gap-8 items-start">
+      <div>
+        <h2 class="text-2xl md:text-3xl font-bold">Meet Teacher Nicholas Q</h2>
+        <p class="mt-3 text-slate-700">Online English Teacher & American Accent Coach. Experienced with Cambly and Accent Advisor, I help intermediate and advanced learners sound natural, think clearly in English, and perform under pressure—especially on IELTS.</p>
+        <ul class="mt-4 grid gap-2 text-slate-700">
+          <li>• Clear lesson structure and measurable goals</li>
+          <li>• Real‑world tasks and mock exams</li>
+          <li>• Feedback you can apply immediately</li>
+        </ul>
+      </div>
+      <div class="rounded-2xl border border-slate-200 p-6 shadow-sm bg-white">
+        <h3 class="font-semibold">What students say</h3>
+        <blockquote class="mt-3 text-slate-700">“Nicholas pushed me to Band 8.0—his timing strategies and pronunciation drills were game‑changers.”</blockquote>
+        <cite class="mt-2 block text-sm text-slate-500">— M., Brazil</cite>
+        <blockquote class="mt-5 text-slate-700">“My calls at work finally feel easy. Colleagues stopped asking me to repeat myself.”</blockquote>
+        <cite class="mt-2 block text-sm text-slate-500">— A., Poland</cite>
+      </div>
+    </div>
+  </section>
+
+  <!-- Blog teaser -->
+  <section id="blog" class="py-16 bg-slate-50">
+    <div class="max-w-6xl mx-auto px-4">
+      <h2 class="text-2xl md:text-3xl font-bold">Latest insights</h2>
+      <p class="mt-2 text-slate-600">SEO fuel. Publish once a week; link to your services.</p>
+      <div class="mt-8 grid md:grid-cols-3 gap-6">
+        <article class="rounded-2xl border border-slate-200 p-6 bg-white">
+          <h3 class="font-semibold"><a class="hover:text-brand-700" href="#">10 Accent Mistakes Brazilians Make (and Fixes)</a></h3>
+          <p class="mt-2 text-slate-700">Targeted drills for TH, Flap‑T, and vowel length—designed for Portuguese speakers.</p>
+          <a href="#" class="mt-3 inline-block link underline">Read more</a>
+        </article>
+        <article class="rounded-2xl border border-slate-200 p-6 bg-white">
+          <h3 class="font-semibold"><a class="hover:text-brand-700" href="#">IELTS Speaking Part 2: Band‑8 Model</a></h3>
+          <p class="mt-2 text-slate-700">Structure, timing, and vocabulary that actually impress examiners.</p>
+          <a href="#" class="mt-3 inline-block link underline">Read more</a>
+        </article>
+        <article class="rounded-2xl border border-slate-200 p-6 bg-white">
+          <h3 class="font-semibold"><a class="hover:text-brand-700" href="#">Business English: Present with Authority</a></h3>
+          <p class="mt-2 text-slate-700">Simple frameworks for clear slides, strong openings, and tight conclusions.</p>
+          <a href="#" class="mt-3 inline-block link underline">Read more</a>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact / CTA -->
+  <section id="contact" class="py-16">
+    <div class="max-w-6xl mx-auto px-4 grid md:grid-cols-2 gap-8 items-center">
+      <div>
+        <h2 class="text-2xl md:text-3xl font-bold">Book your free trial</h2>
+        <p class="mt-2 text-slate-700">Let’s identify quick wins and design a plan you can stick to.</p>
+        <ul class="mt-4 text-slate-700 grid gap-2">
+          <li>• 25‑minute call on Zoom</li>
+          <li>• Pronunciation snapshot & course plan</li>
+          <li>• No obligation—decide after the call</li>
+        </ul>
+      </div>
+      <div class="rounded-2xl border border-slate-200 p-6 shadow-sm">
+        <form class="grid gap-4">
+          <label class="grid gap-1">
+            <span class="text-sm">Name</span>
+            <input type="text" placeholder="Your name" class="px-3 py-2 rounded-lg border border-slate-300 focus:outline-none focus:ring-2 focus:ring-brand-300" required>
+          </label>
+          <label class="grid gap-1">
+            <span class="text-sm">Email</span>
+            <input type="email" placeholder="you@example.com" class="px-3 py-2 rounded-lg border border-slate-300 focus:outline-none focus:ring-2 focus:ring-brand-300" required>
+          </label>
+          <label class="grid gap-1">
+            <span class="text-sm">Goal</span>
+            <select class="px-3 py-2 rounded-lg border border-slate-300 focus:outline-none focus:ring-2 focus:ring-brand-300">
+              <option>American Accent</option>
+              <option>IELTS Speaking</option>
+              <option>Business English</option>
+            </select>
+          </label>
+          <div class="flex gap-3 flex-wrap">
+            <a href="https://calendly.com/" target="_blank" class="px-4 py-2 rounded-xl bg-brand-600 text-white hover:bg-brand-700">Book on Calendly</a>
+            <a href="https://wa.me/" target="_blank" class="px-4 py-2 rounded-xl border border-slate-300 hover:border-brand-600">Message on WhatsApp</a>
+          </div>
+          <p class="text-xs text-slate-500">This form is a visual placeholder. Swap for your Calendly embed or form handler when ready.</p>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="py-10 border-t border-slate-200">
+    <div class="max-w-6xl mx-auto px-4 flex flex-col md:flex-row items-center justify-between gap-4 text-sm text-slate-600">
+      <p>© <span id="year"></span> Teacher Nicholas Q. All rights reserved.</p>
+      <nav class="flex items-center gap-4">
+        <a href="#" class="hover:text-brand-700">Privacy</a>
+        <a href="#" class="hover:text-brand-700">Terms</a>
+        <a href="mailto:hello@teachernicholasq.com" class="hover:text-brand-700">hello@teachernicholasq.com</a>
+      </nav>
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear()
+    const menuBtn = document.getElementById('menuBtn')
+    const mobileMenu = document.getElementById('mobileMenu')
+    menuBtn?.addEventListener('click', () => mobileMenu.classList.toggle('hidden'))
+  </script>
+</body>
+</html>
