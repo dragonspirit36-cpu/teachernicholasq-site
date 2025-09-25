@@ -1,43 +1,36 @@
-// Serverless function that uses Resend REST API via fetch (no NPM deps).
-// Requires Vercel env var: RESEND_API_KEY (set for Production).
+import { Resend } from 'resend';
+
+const resend = new Resend(process.env.RESEND_API_KEY);
 
 export default async function handler(req, res) {
   if (req.method !== 'POST') {
     return res.status(405).json({ error: 'Method not allowed' });
   }
 
+  const { name, email, message } = req.body;
+
+  if (!name || !email || !message) {
+    return res.status(400).json({ error: 'Missing required fields' });
+  }
+
   try {
-    const { name, email, message } = req.body || {};
-    if (!name || !email || !message) {
-      return res.status(400).json({ error: 'Missing fields' });
-    }
-
-    const text = `From: ${name} <${email}>\n\n${message}`;
-
-    const r = await fetch('https://api.resend.com/emails', {
-      method: 'POST',
-      headers: {
-        'Authorization': `Bearer ${process.env.RESEND_API_KEY}`,
-        'Content-Type': 'application/json'
-      },
-      body: JSON.stringify({
-        from: 'onboarding@resend.dev',          // allowed on free tier
-        to: ['teachernicholasq@gmail.com'],
-        subject: `Website inquiry from ${name}`,
-        text,
-        reply_to: email
-      })
+    const data = await resend.emails.send({
+      from: 'Teacher Nicholas Q <contact@teachernicholasq.com>', // must be your verified domain
+      to: 'teachernicholasq@gmail.com', // receiving inbox
+      reply_to: email, // lets you reply directly to the sender
+      subject: `New message from ${name}`,
+      html: `
+        <h2>New Contact Form Submission</h2>
+        <p><strong>Name:</strong> ${name}</p>
+        <p><strong>Email:</strong> ${email}</p>
+        <p><strong>Message:</strong></p>
+        <p>${message}</p>
+      `,
     });
 
-    const data = await r.json().catch(() => ({}));
-    if (!r.ok) {
-      const msg = data?.message || data?.error || 'Failed to send message.';
-      return res.status(500).json({ error: msg });
-    }
-
-    return res.status(200).json({ message: 'Message sent successfully!' });
-  } catch (err) {
-    console.error('Contact API error:', err);
-    return res.status(500).json({ error: 'Server error.' });
+    return res.status(200).json({ success: true, data });
+  } catch (error) {
+    console.error('Email sending failed:', error);
+    return res.status(500).json({ error: 'Failed to send email' });
   }
 }
