@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>About — Teacher Nicholas Q</title>
+  <link rel="icon" href="/favicon.ico" />
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-white text-slate-900">
+  <header class="sticky top-0 z-40 bg-white/85 backdrop-blur border-b border-slate-200">
+    <div class="max-w-6xl mx-auto px-4 py-3 flex items-center justify-between">
+      <a href="index.html" class="flex items-center gap-2 font-semibold tracking-tight">
+        <span class="inline-flex h-8 w-8 items-center justify-center rounded-xl bg-blue-600 text-white">Q</span>
+        <span>Teacher Nicholas Q</span>
+      </a>
+      <nav class="hidden md:flex items-center gap-6 text-sm">
+        <a href="index.html#services" class="hover:text-blue-700">Services</a>
+        <a href="index.html#results" class="hover:text-blue-700">Results</a>
+        <a href="about.html" class="hover:text-blue-700 font-bold">About</a>
+        <a href="index.html#contact" class="hover:text-blue-700">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="py-16">
+    <div class="max-w-3xl mx-auto px-4 text-center">
+      <h1 class="text-3xl md:text-4xl font-bold mb-8">About Teacher Nicholas Q</h1>
+      <img src="./nicholas.jpg" alt="Teacher Nicholas Q" class="mx-auto rounded-2xl shadow-lg w-full max-w-xs mb-8" />
+      <div class="prose prose-slate text-left max-w-none">
+        <p>Hello,</p>
+
+        <p>I am Teacher Nicholas Q. I am here to help you improve your spoken English skills. I started my online teaching career about 7 years ago. I have been living abroad from the USA for nearly 10 years. My classes are personalized to each student's individual needs, I do not take a one-size-fits-all approach to teaching. I have a 120-hour TESOL certificate, an IELTS teaching certificate, and more than 5000 actual teaching hours. The experience I draw on comes from having taught people from around the globe, and having gleaned specific insights into the unique challenges that different root languages encounter when trying to learn or improve in English. My prior experience is mainly with Cambly Inc. and Accent Advisor. My specialties include IELTS training, Business English, Conversational English, and Accent Reduction.</p>
+
+        <p>I grew up in between Michigan and Montana. I love the outdoors, especially swimming, hiking, and camping. My hobbies include getting tattooed, gaming of all kinds, international travel, and experiencing international cuisines. I spent most of my adult life in and around Seattle, until I moved to the Philippines almost a decade ago. Furthermore, I have been a chef, a life-coach, and owned a catering company, as well as a general contracting service. In addition, I have been blessed with the opportunity to meet and associate with people from all walks of life, giving me a wealth of diversity of experiences to help mold my approach to life. It has always been part of my drive to help people and to help make the world a better place. It is my opinion that helping people to communicate more clearly is a furtherance of that desire.</p>
+      </div>
+    </div>
+  </main>
+
+  <footer class="py-10 border-t border-slate-200">
+    <div class="max-w-6xl mx-auto px-4 flex flex-col md:flex-row items-center justify-between gap-4 text-sm text-slate-600">
+      <p>© <span id="year"></span> Teacher Nicholas Q. All rights reserved.</p>
+      <a href="mailto:teachernicholasq@gmail.com" class="hover:text-blue-700">teachernicholasq@gmail.com</a>
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
