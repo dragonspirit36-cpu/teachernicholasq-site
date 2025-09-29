@@ -1,13 +1,7 @@
 {
   "version": 2,
-  "framework": null,
-  "builds": [
-    { "src": "index.html", "use": "@vercel/static" },
-    { "src": "nicholas.jpg", "use": "@vercel/static" },
-    { "src": "api/contact.js", "use": "@vercel/node" }
-  ],
-  "routes": [
-    { "handle": "filesystem" },
-    { "src": "/(.*)", "dest": "/index.html" }
+  "rewrites": [
+    { "source": "/", "destination": "/index.html" }
   ]
 }
+
